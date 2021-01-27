@@ -33,7 +33,7 @@ for /f "skip=2 eol=} delims=" %%i in ('type "%SteamInstallPath%\steamapps\librar
                 SET libraryPath=!libraryPath:\\=\!
                 ECHO Searching steam library path !libraryPath!...
 
-                SET TAIWUDIR="!libraryPath!\steamapps\common\The Scroll Of Taiwu"
+                SET TAIWUDIR="E:\STEAM\steamapps\common\The Scroll Of Taiwu"
                 IF EXIST !TAIWUDIR! (
                     ECHO Found taiwu folder: !TAIWUDIR!
                     SET StopLoop=true
